@@ -41,8 +41,7 @@ class GeminiLLMServices(LLMServices):
                     result[match[0]] = match[1]
                 elif match[2]:
                     result[match[2]] = None
-
-            result = json.dumps(result, indent=2) 
+ 
             return result
         
         except Exception as e:
@@ -92,7 +91,7 @@ class GeminiLLMServices(LLMServices):
         print(response)
         response = self.constructDictResponse(response.text)
 
-        return response.text
+        return response
     
 if __name__=="__main__":
 
