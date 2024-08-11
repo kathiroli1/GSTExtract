@@ -1,0 +1,6 @@
+amazon-textract-textractor==1.7.12
+azure-ai-documentintelligence==1.0.0b3
+google-ai-generativelanguage==0.6.5
+pypdf==4.2.0
+pypdfium2==4.30.0
+textract==1.6.5
